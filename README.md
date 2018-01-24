@@ -6,6 +6,7 @@ A simple blog which gives users the ability to add, delete and view a single pos
 
 * Usage and understanding of React Router
 * Using Redux Form to connect UI with store
+* Template strings to include variables/JSX in strings
 * Creating validate function to verify fields & passing into Redux Form
 * Display error message if input has been 'touched' and not meeting requirements
 * Using life cycle method ComponentDidMount to fetch posts only after component has rendered
