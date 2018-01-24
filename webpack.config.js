@@ -8,7 +8,6 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
-  plugins: [new TransferWebpackPlugin([{ from: 'style' }, { from: 'assets' }])],
   module: {
     loaders: [
       {
