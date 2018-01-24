@@ -1,5 +1,4 @@
 const path = require('path');
-const TransferWebpackPlugin = require('transfer-webpack-plugin');
 
 module.exports = {
   entry: ['./src/index.js'],
