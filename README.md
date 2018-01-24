@@ -29,4 +29,10 @@ Instead its easier to get access to an object with the key.
 * Using match.params.id that is supplied by React Router to grab id/wildcard out of URL
 * Using ownProps in mapStatetoProps to get list of posts once mapStateToProps to called and only return the specific post with the specific ID. ownProps is good for scalability if I were to use mapStateToProps in a seperate function, and that would let postShow be only responsible for showing a component.
 
+<img width="1680" alt="screen shot 2018-01-24 at 1 37 40 pm" src="https://user-images.githubusercontent.com/20784807/35353492-5a07a80a-0115-11e8-9f2a-5b411124adb8.png">
+
+
+### DEMO ####
+https://edward-blog-react.herokuapp.com/
+
 
