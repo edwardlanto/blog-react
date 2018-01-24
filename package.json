@@ -4,13 +4,14 @@
   "description": "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "prod": "NODE_ENV=production node server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "postinstall": "webpack --config ./webpack.config.js"
+    "postinstall": "webpack -p"
   },
   "author": "",
   "license": "ISC",
