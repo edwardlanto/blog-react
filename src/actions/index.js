@@ -1,8 +1,9 @@
+import axios from 'axios';
 export const FETCH_POSTS = 'fetch_posts';
 export const CREATE_POST = 'create_post';
 export const FETCH_POST = 'fetch_post';
 export const DELETE_POST = 'delete_post';
-import axios from 'axios';
+
 
 const ROOT_URL = 'https://reduxblog.herokuapp.com/api';
 const API_KEY = '?key=react-blog1995';
